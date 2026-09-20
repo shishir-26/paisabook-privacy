@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - PaisaBook Expense Manager &amp; Tracker</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --page: #f5f7f6;
+    --text: #1b2523;
+    --muted: #596864;
+    --brand: #0b5a4f;
+    --tint: #e7f1ee;
+    --rule: #dde3e0;
+    box-sizing: border-box;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16201d; --page: #0e1614; --text: #e7edea; --muted: #9db0a9; --brand: #6fc7b6; --tint: #1c2d29; --rule: #2a3a36; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--page); color: var(--text); font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif; font-size: 16px; line-height: 1.7; }
+  a { color: var(--brand); overflow-wrap: anywhere; }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--brand); outline-offset: 2px; }
+
+  .topbar { background: var(--bg); border-bottom: 1px solid var(--rule); }
+  .topbar-in { max-width: 68rem; margin: 0 auto; padding: .9rem 1.25rem; display: flex; align-items: center; gap: .7rem; }
+  .mark { width: 2.1rem; height: 2.1rem; border-radius: .55rem; background: var(--brand); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 1.15rem; }
+  @media (prefers-color-scheme: dark) { .mark { color: #0e1614; } }
+  .brand { font-weight: 650; font-size: 1.05rem; }
+
+  .wrap { max-width: 68rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  .hero h1 { font-size: 2.3rem; line-height: 1.15; margin: 0 0 .4rem; letter-spacing: -0.015em; }
+  .hero p { margin: 0; color: var(--muted); }
+
+  .summary { margin: 1.6rem 0 0; padding: 1.2rem 1.4rem; background: var(--tint); border-radius: .8rem; border: 1px solid var(--rule); }
+  .summary h2 { margin: 0 0 .4rem; font-size: 1.05rem; }
+  .summary ul { margin: 0; padding-left: 1.2rem; }
+  .summary li { margin: .3rem 0; }
+
+  .layout { display: block; margin-top: 2rem; }
+  .toc { margin-bottom: 1.5rem; background: var(--bg); border: 1px solid var(--rule); border-radius: .8rem; padding: .3rem 1.1rem; }
+  .toc summary { cursor: pointer; font-weight: 600; padding: .7rem 0; }
+  .toc ol { margin: 0 0 .8rem; padding-left: 1.2rem; }
+  .toc a { text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  .toc li { margin: .2rem 0; }
+
+  article { background: var(--bg); border: 1px solid var(--rule); border-radius: .8rem; padding: 1.6rem 1.4rem 2rem; }
+  article h2 { font-size: 1.3rem; line-height: 1.3; margin: 2.2rem 0 .3rem; scroll-margin-top: 1rem; }
+  article h2:first-child { margin-top: 0; }
+  article p, article ul { margin: .6rem 0; }
+  article ul { padding-left: 1.25rem; }
+  article li { margin: .3rem 0; }
+
+  .table-scroll { overflow-x: auto; margin: .9rem 0; border: 1px solid var(--rule); border-radius: .6rem; }
+  table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: .95rem; }
+  th, td { text-align: left; padding: .65rem .8rem; vertical-align: top; border-bottom: 1px solid var(--rule); }
+  th { background: var(--tint); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+
+  .contact { margin-top: 1rem; padding: 1rem 1.2rem; background: var(--tint); border-radius: .6rem; }
+  footer { margin-top: 1.5rem; color: var(--muted); font-size: .9rem; text-align: center; }
+
+  @media (min-width: 60rem) {
+    .layout { display: grid; grid-template-columns: 15rem 1fr; gap: 2rem; align-items: start; }
+    .toc { position: sticky; top: 1.2rem; margin: 0; padding: 1rem 1.2rem; }
+    .toc summary { display: none; }
+    .toc::before { content: "Contents"; display: block; font-weight: 600; margin-bottom: .4rem; }
+    .toc details, .toc { }
+    article { padding: 2.2rem 2.6rem 2.6rem; }
+  }
+</style>
+</head>
+<body>
+<div class="topbar"><div class="topbar-in"><div class="mark" aria-hidden="true">&#8377;</div><div class="brand">PaisaBook</div></div></div>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Privacy Policy</h1>
+    <p>PaisaBook Expense Manager &amp; Tracker for Android. Last updated 20 September 2026.</p>
+  </div>
+
+  <section class="summary" aria-labelledby="sum">
+    <h2 id="sum">The short version</h2>
+    <ul>
+      <li>Your expenses, budgets and settings stay on your phone. We never receive them.</li>
+      <li>There is no account to create and no server behind the app.</li>
+      <li>PaisaBook does not read your SMS messages or your other apps' notifications.</li>
+      <li>Google Drive backup is optional and saves to your own Google Drive.</li>
+      <li>The app shows ads from Google AdMob, which may use your device's advertising ID.</li>
+    </ul>
+  </section>
+
+  <div class="layout">
+    <nav class="toc" aria-label="Contents">
+      <details open>
+        <summary>Contents</summary>
+        <ol>
+          <li><a href="#scope">Scope</a></li>
+          <li><a href="#information">Information and where it is kept</a></li>
+          <li><a href="#not-collected">Information we do not collect</a></li>
+          <li><a href="#backup">Google Drive backup</a></li>
+          <li><a href="#ads">Advertising</a></li>
+          <li><a href="#third-parties">Third-party services</a></li>
+          <li><a href="#permissions">App permissions</a></li>
+          <li><a href="#security">Security</a></li>
+          <li><a href="#retention">Retention and deletion</a></li>
+          <li><a href="#choices">Your choices</a></li>
+          <li><a href="#children">Children</a></li>
+          <li><a href="#changes">Changes to this policy</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ol>
+      </details>
+    </nav>
+
+    <article>
+      <h2 id="scope">1. Scope</h2>
+      <p>This policy explains how PaisaBook Expense Manager &amp; Tracker ("PaisaBook", "the app", "we", "us") handles information when you use the app on Android. PaisaBook is developed by Shishir Rakshit, an individual developer based in India. By installing and using the app, you agree to this policy.</p>
+      <p>PaisaBook is designed to keep your financial entries on your own device. We do not operate servers for the app, and we do not ask you to create an account.</p>
+
+      <h2 id="information">2. Information and where it is kept</h2>
+      <p>The information you enter is stored in a local database on your phone. This includes expenses (amount, category, date, and any merchant or note you type), budgets, subscription and AutoPay entries, split-group entries, and app settings. We do not receive, access, or store this information.</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Information</th><th>Where it is kept</th><th>Shared with anyone?</th></tr></thead>
+          <tbody>
+            <tr><td>Expenses, budgets, subscriptions, split entries, settings</td><td>On your device only</td><td>No</td></tr>
+            <tr><td>Reminder time and reminder on/off setting</td><td>On your device only</td><td>No</td></tr>
+            <tr><td>Backup file (only if you turn on Google Drive backup)</td><td>Your own Google Drive, in an area reserved for the app</td><td>Not with us. Stored by Google.</td></tr>
+            <tr><td>Advertising ID, IP address, device and app details</td><td>Collected by the Google Mobile Ads SDK</td><td>Yes, with Google AdMob</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="not-collected">3. Information we do not collect</h2>
+      <p>PaisaBook does not read your SMS messages or notifications from other apps. It does not access your location, contacts, camera, or microphone. We do not sell your personal information.</p>
+
+      <h2 id="backup">4. Google Drive backup</h2>
+      <p>Google Drive backup is optional. If you turn it on, you sign in with your Google account and the app saves a backup file of your PaisaBook data to your own Google Drive, in a storage area reserved for the app. We do not receive this file and cannot open it. Restoring a backup downloads the same file back to your phone.</p>
+      <p>PaisaBook's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+      <p>PDF and CSV exports are created on your phone and are saved or shared only where you choose.</p>
+
+      <h2 id="ads">5. Advertising</h2>
+      <p>PaisaBook shows ads served by Google AdMob. The Google Mobile Ads SDK may collect and use information such as your device's advertising ID, IP address, and app and device details to deliver, measure, and secure ads. PaisaBook requests non-personalized ads. We do not share your expense entries with the ad SDK or with any other party.</p>
+
+      <h2 id="third-parties">6. Third-party services</h2>
+      <p>PaisaBook uses the following third-party services, which have their own privacy policies:</p>
+      <ul>
+        <li>Google Sign-In and Google Drive (optional backup): <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+        <li>Google AdMob (ads): <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a></li>
+      </ul>
+
+      <h2 id="permissions">7. App permissions</h2>
+      <ul>
+        <li>Internet and network state: to load ads and to run Google Drive backup.</li>
+        <li>Notifications: to show the daily reminder if you switch it on.</li>
+        <li>Run at startup, wake lock, and vibrate: to restore your reminder after the phone restarts and to deliver it.</li>
+        <li>Advertising ID: used by the ad SDK as described in section 5.</li>
+      </ul>
+
+      <h2 id="security">8. Security</h2>
+      <p>Your data is stored on your device and protected by your device's own security features, so we recommend using a screen lock. Backup files are stored in your Google Drive and protected by your Google account. PaisaBook does not encrypt the backup file, so we recommend a strong password and 2-Step Verification on your Google account. No method of storage or transmission is completely secure.</p>
+
+      <h2 id="retention">9. Retention and deletion</h2>
+      <p>Your data stays on your phone until you delete it or uninstall PaisaBook. Because we hold no copy of your data, there is nothing on our side to delete. A Google Drive backup stays in your Google Drive until you remove it.</p>
+
+      <h2 id="choices">10. Your choices</h2>
+      <ul>
+        <li>Turn off the daily reminder, or withdraw notification permission, at any time in Android settings.</li>
+        <li>Revoke PaisaBook's access to your Google Drive in your Google Account settings, and delete the backup file from your Drive.</li>
+        <li>Reset or delete your advertising ID in your phone's Android settings, usually under Privacy or Google &gt; Ads.</li>
+      </ul>
+
+      <h2 id="children">11. Children</h2>
+      <p>PaisaBook is not directed at children under 13, and we do not knowingly collect information from them.</p>
+
+      <h2 id="changes">12. Changes to this policy</h2>
+      <p>We may update this policy from time to time. When we do, we will change the "Last updated" date at the top of this page. Continued use of the app after a change means you accept the updated policy.</p>
+
+      <h2 id="contact">13. Contact us</h2>
+      <p>If you have questions about this policy, get in touch.</p>
+      <div class="contact">
+        <strong>Shishir Rakshit</strong>, developer of PaisaBook<br>
+        India<br>
+        <a href="mailto:rakshitofficial.dev@gmail.com">rakshitofficial.dev@gmail.com</a>
+      </div>
+    </article>
+  </div>
+
+  <footer>&copy; 2026 Shishir Rakshit. All rights reserved.</footer>
+</div>
+</body>
+</html>
